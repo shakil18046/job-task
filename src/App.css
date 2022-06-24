@@ -1,12 +1,36 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.review-list-wrapper li{
+  display: inline-block;
+}
+.shedule-btn{
+  background-color: #503DD4;
+}
+.shedule-btn:hover{
+  background-color: #503DD4;
+}
+.fav-btn:hover{
+  background: transparent;
+}
+.share-btn:hover{
+  background: transparent;
+}
+.fav-btn,.share-btn{
+  background: transparent;
+  border: none;
+  color: #503DD4;
+}
+.teacher-name{
+  color: #503DD4;
+}
+.course, .review{
+  color: #8b8b8b;
+}
+.image-wrapper{
+  width: 100%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
